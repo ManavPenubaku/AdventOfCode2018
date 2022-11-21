@@ -23,7 +23,7 @@ fn get_cutregions(path: &str) -> Vec<HashSet<(u16,u16)>>{
             out.push(coord_set);
         }
     }
-    return out
+    return out;
 }
 
 fn main(){
