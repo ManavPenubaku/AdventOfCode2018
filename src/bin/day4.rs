@@ -1,8 +1,6 @@
-use std::collections::HashMap;
-
 use aoc2018::util;
 use regex::Regex;
-// use std::collections::HashMap;
+use std::collections::HashMap;
 
 #[derive(Debug, Eq, Ord, PartialEq, PartialOrd)]
 struct Record{
