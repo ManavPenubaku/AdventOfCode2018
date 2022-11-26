@@ -17,7 +17,7 @@ fn main() {
     for num in nums.iter(){
         frequency_p1 += num;
     }
-    println!("Solution to Part 1 is : {}",frequency_p1);
+    println!("Part 1 : {}",frequency_p1);
 
     let mut frequency_dict: HashSet<i32> = HashSet::new();
     let mut frequency_p2 = 0;
@@ -31,5 +31,5 @@ fn main() {
             index = 0;
         }
     }
-    println!("Solution to Part 2 is : {}",frequency_p2)
+    println!("Part 2 : {}",frequency_p2)
 }

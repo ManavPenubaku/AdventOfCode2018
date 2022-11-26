@@ -37,8 +37,8 @@ fn main(){
             intersect_fabric.extend(temp_intersect);
         }
         if claim_a.is_disjoint(&intersect_fabric){
-            println!("Intact claim is : {}",i+1);
+            println!("Part 2 : {}",i+1);
         }
     }
-    println!("Fabric with two or more claims : {}",intersect_fabric.len());
+    println!("Part 1 : {}",intersect_fabric.len());
 }

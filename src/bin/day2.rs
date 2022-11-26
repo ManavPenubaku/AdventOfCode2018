@@ -27,10 +27,9 @@ fn main(){
         id_threes += three_flag;
     }
     let checksum = id_twos * id_threes;
-    println!("Solution to Part 1 is : {}",checksum);
+    println!("Part 1 : {}",checksum);
 
     let string_lengths = boxids[0].chars().count();
-    println!("{}",string_lengths as i32);
     for id_1 in &boxids{
         let mut match_chars = string_lengths as i32;
         let comp_length = string_lengths as i32;
@@ -44,7 +43,7 @@ fn main(){
                 if match_chars < comp_length-1 {continue};
             }
             if match_chars == comp_length-1{
-                println!("Solution to Part 2 is : {}",id_1.replace(diff_char, ""));
+                println!("Part 2 : {}",id_1.replace(diff_char, ""));
                 break;
             }
             match_chars = comp_length;
