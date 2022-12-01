@@ -95,6 +95,7 @@ fn p2(input: HashMap<char,Vec<char>>) ->u32{
     for character in out{
         print!("{}",character);
     }
+    println!("");
     return time_elapsed;
 }
 
